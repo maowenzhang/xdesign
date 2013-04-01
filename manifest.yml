@@ -1,0 +1,9 @@
+--- 
+applications: 
+- name: xdesign
+  framework: node
+  runtime: node08
+  memory: 512M
+  instances: 1
+  url: xdesign.${target-base}
+  path: .

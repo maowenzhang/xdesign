@@ -1,0 +1,17 @@
+{
+	"name": "xDesign",
+	"description": "xDesign",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"express": "3.x"
+	},
+	"devDependencies": {
+		"nodemon": "latest"
+	},
+	"scripts": {
+		"debug": "nodemon server.js",
+		"debug1": "nodemon -w -debug server.js"
+	}
+	
+}
